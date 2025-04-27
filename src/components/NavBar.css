@@ -1,16 +1,9 @@
-.nav-link{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 60px;
-    padding: 5px;
-    margin: 0 6px 6px;
-    background: blue;
+.nav-link {
+    margin-right: 10px;
     text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: white;
-}
+    color: blue;
+  }
   
-.active {
-    color: red;
-}
+  .nav-link.active {
+    font-weight: bold;
+  }
